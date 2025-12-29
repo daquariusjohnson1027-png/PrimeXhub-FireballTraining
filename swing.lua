@@ -71,7 +71,7 @@ local function startLoop()
 		while loopEnabled do
 			checkForImportantTool()  -- Check and update tool name
 			fireEvent()
-			wait(0.05)  -- Fast event firing
+			wait(0.000000001)  -- Fast event firing
 		end
 	end)
 end
